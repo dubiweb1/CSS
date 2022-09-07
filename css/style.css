@@ -1,0 +1,138 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.ct1{ background: salmon;}
+.ct2{ background: lightblue;}
+.ct3{ background: lightgreen;}
+.ct4{ background: khaki;}
+.ct5{ background: sandybrown;}
+.ct6{ background: slateblue;}
+
+.cto1{ background: seashell;}
+.cto2{ background: lavender;}
+.cto3{ background: lightgreen;}
+.cto4{ background: sandybrown;}
+.cto5{ background: darkkhaki;}
+.cto6{ background: lightpink;}
+
+/* CT 1 */
+.ct1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.ct1 h1{
+
+}
+
+/* CT 2 */
+.ct2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.ct2 h1{
+
+}
+
+/* CT 3 */
+.ct3{
+
+}
+.ct3 h1{
+
+}
+
+/* CT 4 */
+.ct4{
+
+}
+.ct4 h1{
+
+}
+
+/* CT 5 */
+.ct5{
+
+}
+.ct5 h1{
+
+}
+
+/* CT 6 */
+.ct6{
+
+}
+.ct6 h1{
+
+}
+
+/* CTO 1 */
+.cto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.cto1 h1{
+
+}
+
+/* CTO 3 */
+.cto2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.cto2 h1{
+
+}
+
+/* CTO 3 */
+.cto3{
+
+}
+.cto3 h1{
+
+}
+
+/* CTO 4 */
+.cto4{
+
+}
+.cto4 h1{
+
+}
+
+/* CTO 5 */
+.cto5{
+
+}
+.cto5 h1{
+
+}
+
+/* CTO 6 */
+.cto6{
+
+}
+.cto6 h1{
+
+}
